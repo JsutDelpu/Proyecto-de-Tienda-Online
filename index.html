@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EquipFit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Logo de la empresa">
+        <h1>EquipFit</h1>
+      </a>
+        <nav>
+          <a href="index.html" class="nav-link">Inicio</a>
+          <a href="nosotros.html" class="nav-link">Sobre nosotros</a>
+          <a href="contacto.html" class="nav-link">Contacto</a>
+        </nav>
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+              <div class="count-products">
+                <span id="contador-productos">4
+                </span>
+              </div>
+
+              <div class="container-cart-products hidden-cart">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <div>
+                          <span class="cantidad-producto-carrito">1</span>
+                          <p class="titulo-producto-carrito">Mancuernas 5 KG</p>
+                          <span class="precio-producto-carrito">$15.000</span>
+                        </div>
+                        <div><span class="cantidad-producto-carrito">3</span>
+                          <p class="titulo-producto-carrito">Mancuernas 3 KG</p>
+                          <span class="precio-producto-carrito">$10.000</span>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                      </svg>                      
+                </div>
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$45.000</span>
+                </div>
+              </div>
+        </div>
+    </header>
+    <div class="container-items">
+      <div class="item">
+        <figure>
+            <img src="https://contents.mediadecathlon.com/p1857095/k$203dbd4e92579e6c977ea70a1cef5289/3kg-twin-pack-dumbbells-domyos-8336581.jpg?f=1920x0&format=auto" alt="producto">
+        </figure>
+        <div class="info-product">
+            <h2>Mancuernas 3 KG</h2>
+            <p class="price">$10.000</p>
+            <button>Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+            <img src="https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="producto">
+        </figure>
+        <div class="info-product">
+            <h2>Mancuernas 5 KG</h2>
+            <p class="price">$15.000</p>
+            <button>Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+            <img src="https://www.physioworldshop.co.uk/cdn/shop/products/physioworld-exercise-mat-bulk-buy-discounts-available-physioworld-890030_1843x.jpg?v=1657795480" alt="producto">
+        </figure>
+        <div class="info-product">
+            <h2>Colchoneta 1 Metro</h2>
+            <p class="price">$5.000</p>
+            <button>Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+            <img src="https://contents.mediadecathlon.com/m17920128/k$fa77675068a0ab825165ffc31890fb30/pwb3-power-band-medium-resistance-band-18-1-37-6-kg-orange-trnr-644ee302-cfdd-4232-8492-baed6ae5dfce.jpg" alt="producto">
+        </figure>
+        <div class="info-product">
+            <h2>Bande de resistencia Medium</h2>
+            <p class="price">$5.000</p>
+            <button>Añadir al carrito</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+            <img src="https://acdn.mitiendanube.com/stores/001/962/058/products/diseno-sin-titulo-167-57feb364698c1893d317294370708790-1024-1024.webp" alt="producto">
+        </figure>
+        <div class="info-product">
+            <h2>Kit completo</h2>
+            <p class="price">$30.000</p>
+            <button>Añadir al carrito</button>
+        </div>
+      </div>      
+    </div>
+    <script src="index.js"></script>
+
+    <footer>
+      <small>Copyright 2024</small>
+    </footer>
+</body>
+</html>
